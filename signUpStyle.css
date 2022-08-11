@@ -1,0 +1,110 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.bannerLeft {
+  display: flex;
+  background-color: rgb(2, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.containerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 36vh;
+  width: 30%;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+.containerRight {
+  width: 70%;
+  background-color: whitesmoke;
+}
+
+.infoContainer {
+  display: flex;
+  height: 35vh;
+  flex-direction: column-reverse;
+}
+
+.displayInfo {
+  margin-bottom: 3vh;
+  margin-left: 4.0905%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.customerInfo {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 12, 0.2),
+    0px -2px 5px rgba(0, 0, 12, 0.2);
+}
+
+.signUpBoxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 4.0905%;
+}
+
+#inputBox {
+  width: 30%;
+
+  margin-bottom: 1vh;
+}
+
+input:focus {
+  border: 4px solid rgb(78, 78, 171);
+}
+
+.inputPrompt {
+  margin-bottom: 0.001vh;
+}
+
+.inputTitle {
+  margin-left: 4.0905%;
+}
+
+#inputBox.password,
+#inputBox.confirmPassword,
+#inputBox.phoneNumber {
+  margin-bottom: 20px;
+}
+
+#inputBox.firstName,
+#inputBox.lastName,
+#inputBox.customerEmail {
+  margin-bottom: 12px;
+}
+
+.createAccount {
+  background-color: rgb(75, 153, 86);
+  color: white;
+  border-radius: 10px;
+  margin-left: 4.0905%;
+  margin-top: 3.2vh;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+p.currentUserQuestion {
+  margin-left: 4.0905%;
+  margin-top: 2vh;
+}
